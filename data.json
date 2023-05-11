@@ -1,0 +1,82 @@
+[
+    {
+        "base_unit": "btc",
+        "last": "2430500.0",
+        "volume": "6.04453",
+        "sell": "2430500.0",
+        "buy": "2430280.0",
+        "name": "BTC/INR"
+    },
+    {
+        "base_unit": "xrp",
+        "last": "37.9",
+        "volume": "204694.7",
+        "sell": "37.9",
+        "buy": "37.75",
+        "name": "XRP/INR"
+    },
+    {
+        "base_unit": "eth",
+        "last": "163599.9",
+        "volume": "27.0746",
+        "sell": "163590.1",
+        "buy": "160800.2",
+        "name": "ETH/INR"
+    },
+    {
+        "base_unit": "trx",
+        "last": "6.1504",
+        "volume": "1433429.0",
+        "sell": "6.162",
+        "buy": "6.1504",
+        "name": "TRX/INR"
+    },
+    {
+        "base_unit": "eos",
+        "last": "82.0",
+        "volume": "394.86",
+        "sell": "89.0",
+        "buy": "81.21",
+        "name": "EOS/INR"
+    },
+    {
+        "base_unit": "zil",
+        "last": "2.25",
+        "volume": "89961.0",
+        "sell": "2.27",
+        "buy": "2.25",
+        "name": "ZIL/INR"
+    },
+    {
+        "base_unit": "bat",
+        "last": "19.503",
+        "volume": "1890.76",
+        "sell": "20.76",
+        "buy": "19.556",
+        "name": "BAT/INR"
+    },
+    {
+        "base_unit": "zrx",
+        "last": "19.3",
+        "volume": "3306.83",
+        "sell": "20.17",
+        "buy": "19.32",
+        "name": "ZRX/INR"
+    },
+    {
+        "base_unit": "req",
+        "last": "8.2599",
+        "volume": "42.0",
+        "sell": "8.21",
+        "buy": "7.8318",
+        "name": "REQ/INR"
+    },
+    {
+        "base_unit": "nuls",
+        "last": "108.0",
+        "volume": "0.0",
+        "sell": "0.0",
+        "buy": "0.0",
+        "name": "NULS/INR"
+    }
+]

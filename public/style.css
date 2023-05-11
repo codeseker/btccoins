@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald,sans-serif;
+}
+
+body {
+    background-color: #191d28;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+nav img {
+    width: 212px;
+}
+
+
+.btn {
+    background-color: #2e3241;
+    padding: 4px 14px;
+    font-size: large;
+    color: white;
+    border: 0;
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.right-header {
+    text-align: right;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.d-inline-flex {
+    display: inline-flex !important;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.btn2 {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.header-telegram-button {
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: #3dc6c1;
+    color: #fff !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.telegram-logo {
+    height: 15px;
+    margin-right: 10px;
+    width: 18px;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input {
+    overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+}
+
+.theme-dark input:checked+.slider {
+    background-color: #2e3241;
+}
+
+.slider.round {
+    border-radius: 34px;
+    background-color: #2e3241;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.theme-dark .slider:before {
+    background-color: #3dc6c1;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    transition: .4s;
+    background-color: #3dc6c1;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.text-center {
+    text-align: center;
+    font-weight: 300;
+}
+
+.color-white {
+    color: #fff;
+    opacity: .45;
+}
+
+.color-white-only {
+    color: #fff;
+}
+
+.color-green {
+    color: #5dc7c2;
+}
+
+.font {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.average-heading {
+    font-weight: 400;
+    font-size: 80px;
+    padding-bottom: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.table{
+    padding: 0 2.5rem;
+    margin: 6rem 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    opacity: .45;
+    font-size: 20px;
+    padding: 0 20px;
+    cursor: pointer;
+    
+}
+#list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 21px;
+    color: #fff;
+    background-color: #2e3241;
+    border-radius: 16px;
+    padding: 0 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
